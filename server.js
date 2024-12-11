@@ -6,8 +6,9 @@ const testSvg = require('./testSvg');
 const server = http.createServer((req, res) => {
 
   const dynamicValues = {
+    heading: "BUZZ",
     invest: "4563",
-    sold: "2342",
+    sold: "4342",
     profit: "2896",
     percentage: "222.22",
   };
